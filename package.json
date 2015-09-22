@@ -1,15 +1,16 @@
 {
   "name": "VSCode_ES6_NODE.JS",
   "version": "0.0.1",
-  "scripts":{
-    "start" : "node lib/app.js"
+  "scripts": {
+    "start": "node app.js"
   },
   "devDependencies": {
     "babel": "*",
     "tsd": "*"
   },
-  "main": "lib/app.js",
+  "main": "app.js",
   "dependencies": {
+    "ejs": "^2.3.4",
     "express": "^4.13.3"
   }
 }
